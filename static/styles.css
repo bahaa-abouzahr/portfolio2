@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: rgb(73, 69, 71);
+    letter-spacing: 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 8% 0;
+}
+.left-navbar h1{
+    color: #fff;
+    font-size: 25px;
+}
+.left-navbar h1 em {
+    color: #00FFFF;
+}
+.right-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .right-navbar div a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: 0.5s linear;
+}
+.navbar .right-navbar div a:hover {
+    color: #00FFFF;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    margin: 0 8%;
+
+}
+
+.left-content {
+    flex: 1;
+}
+.hello h1{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hello .name{
+    color: #fff;
+    font-size: 60px;
+}
+.hello h1 em {
+    color: #00FFFF;
+}
+.left-content .intro p{
+    margin-bottom: 20px;
+    color: rgb(150, 150, 150);
+}
+.left-content .cv-download .cv {
+    padding: 12px 25px;
+    background-color: #00FFFF;
+    color: rgb(73, 69, 71);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.right-content {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-content img{
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: rgb(73, 69, 71);
+    border-color: #00FFFF;
+    border-style: solid;
+    border-width: 6px;
+    box-shadow: 0 0 40px #00FFFF;;
+
+}
